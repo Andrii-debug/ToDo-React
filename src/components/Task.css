@@ -1,0 +1,25 @@
+.task_block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius:  10px;
+    margin: 4px;
+}
+
+.delBtn {
+    width: 24px;
+    height: 24px;
+    background: none;
+    background-image: url('../assets/image/delete.png');
+    cursor: pointer;
+    border: none; 
+}
+
+.ready {
+    text-decoration: 2px line-through;
+    text-decoration-color: red;
+    
+}

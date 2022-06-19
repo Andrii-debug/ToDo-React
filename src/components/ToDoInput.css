@@ -1,0 +1,61 @@
+.form_input {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+}
+
+.input__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.mainInput {
+    width: 100%;
+    max-width: 280px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    outline: none;
+   
+    background-color: rgb(54, 53, 53);
+    color: white;
+    box-shadow: 3px 4px 10px black;
+    font-family: 'Poppins', sans-serif;
+}   
+
+.mainInput:hover {
+    border: 2px solid goldenrod;
+}
+
+.button-add {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: rgb(240, 211, 46);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    opacity: 1;
+    transition-duration: 0.1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-add:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.button-add:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
